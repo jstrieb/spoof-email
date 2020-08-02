@@ -6,8 +6,8 @@ See explanatory comment in PHP source.
 -->
 <html>
 <head>
-<meta name="author" content="God" />
-<meta name="description" content="" />
+<meta name="author" content="" />
+<meta name="description" content="Send spoofed email" />
 <meta name="keywords" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Email Sender</title>
