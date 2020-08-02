@@ -25,6 +25,7 @@ body {
 
 form {
   display: inline-block;
+  width: 100%;
 }
 
 form input, form textarea, form label {
@@ -77,6 +78,7 @@ var_dump($_REQUEST);
 
 /* Generate a password hash using generate_hash.php and paste it here */
 $expected_hash = '[ ENTER YOUR PASSWORD HASH HERE ]';
+$expected_hash = '$2y$10$HXPUYz64qyxcN9SuLhvX8uOx.msJTFgdfne6L5F8OVQQgvb7TzP7y';
 if (isset($_REQUEST["password"])
     && password_verify(hash("sha256", $_REQUEST["password"]), $expected_hash)) {
   echo "<p>Correct password.</p>";
